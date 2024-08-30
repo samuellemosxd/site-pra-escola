@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cinza escuro */
+    color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #FF4F3D; /* Vermelho um pouco mais forte */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF4F3D; /* Vermelho um pouco mais forte */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #E04A39; /* Vermelho mais escuro para o hover */
+}
+
+footer {
+    background-color: #FF4F3D; /* Vermelho um pouco mais forte */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Adiciona um gradiente animado às barras vermelhas */
+@keyframes gradientAnimation {
+    0% {
+        background-color: #FF6F61; /* Vermelho claro */
+    }
+    50% {
+        background-color: #E66456; /* Vermelho um pouco mais escuro */
+    }
+    100% {
+        background-color: #FF6F61; /* Volta ao vermelho claro */
+    }
+}
+
+header, footer {
+    background-color: #FF6F61; /* Vermelho claro */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    animation: gradientAnimation 5s infinite; /* Animação de 5 segundos */
+}
+
+button {
+    background-color: #FF6F61; /* Vermelho claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    animation: gradientAnimation 5s infinite; /* Animação de 5 segundos */
+}
+
+button:hover {
+    background-color: #E66456; /* Vermelho um pouco mais escuro para o hover */
+}
+
+/* Estilos para a seção de contato */
+.contact-section {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #444; /* Fundo cinza escuro */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-section h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #888;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF6F61; /* Vermelho claro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #E66456; /* Vermelho um pouco mais escuro para o hover */
+}
+
+
+

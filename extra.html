@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- Importar a biblioteca EmailJS -->
+    <link rel="icon" href="images/icone.png" type="image/png"> <!-- Adicionar favicon -->
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Formulário de Contato</h2>
+            <!-- Novo texto acima do formulário -->
+            <p>Se você tiver tempo livre e quiser me dizer algo por email, é só mandar! Eu possivelmente vou ler! 😉</p>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Seu e-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+        <button onclick="location.href='index.html'">Voltar para a Página Inicial</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Samuel de Lemos</p>
+    </footer>
+    <script src="script.js"></script> <!-- Incluir o script.js -->
+</body>
+</html>
